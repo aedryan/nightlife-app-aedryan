@@ -1,0 +1,43 @@
+{
+  "name": "voting-app",
+  "version": "1.0.0",
+  "description": "An app for people to vote with",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "url": "https://github.com/aedryan/voting-app"
+  },
+  "author": "Andrew Cox",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "compression": "^1.6.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.2",
+    "express-session": "^1.15.2",
+    "mongodb": "^2.2.26",
+    "mongoose": "^4.9.5",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.1.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-router": "^4.1.1",
+    "react-router-dom": "^4.1.1"
+  },
+  "devDependencies": {
+    "auto-reload-brunch": "^2.7.1",
+    "autoprefixer": "^6.6.1",
+    "babel-brunch": "^6.1.1",
+    "babel-preset-latest": "^6",
+    "babel-preset-react": "~6.22",
+    "brunch": "^2.10.9",
+    "clean-css-brunch": "^2.10.0",
+    "javascript-brunch": "^2.10.0",
+    "less-brunch": "^2.10.0",
+    "postcss-brunch": "^2.0",
+    "sprite-brunch": "^1.0.3",
+    "uglify-js-brunch": "^2.10.0"
+  }
+}
